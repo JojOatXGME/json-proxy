@@ -1,0 +1,8 @@
+# Gradle Version Catalog
+# -> https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[libraries]
+jspecify = { module = "org.jspecify:jspecify", version = "1.0.0" }
+junit5-bom = { module = "org.junit:junit-bom", version = "5.9.1" }
+junit5-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit5-engine = { module = "org.junit.jupiter:junit-jupiter-engine" }
